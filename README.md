@@ -2,6 +2,20 @@
 
 A flight lab for a Grade 10 C# class. Students write short programs, watch Ziki cross the garden tile by tile, and use math to solve thirteen missions. This app uses React, TypeScript, Vite, and Babylon.js, with local assets and no external runtime services.
 
+## In the game
+
+**Calculate the Move** uses subtraction to fly from Ziki’s starting tile to the rose.
+
+![Ziki at tile 1 and a rose at tile 4, with C# code that subtracts the starting position and calls Move](docs/screenshots/calculate-the-move.png)
+
+**Find the GPS Rose** uses `Math.Round` to turn a fractional GPS reading into a target tile.
+
+![A ten-by-ten garden with a GPS pin at (4.7, 1.6) and C# code that rounds both coordinates](docs/screenshots/find-the-gps-rose.png)
+
+**Fill a Square Seed Tray** uses `Math.Pow` to calculate how many seeds to load.
+
+![The completed three-by-three tray, with all nine slots filled and the C# solution visible](docs/screenshots/fill-a-square-seed-tray.png)
+
 ## Start the game
 
 With Node 22.18+ in the Node 22 series, or Node 24+, run these commands from this directory:

@@ -1,0 +1,20 @@
+# Dependencies and production output
+/node_modules/
+/dist/
+
+# Local test output
+/test-results/
+/playwright-report/
+/tests/oracle/bin/
+/tests/oracle/obj/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+*.local
+
+# macOS and art previews
+.DS_Store
+/drone.gif
+/drone_compact.gif

@@ -1,0 +1,18 @@
+{
+  "expressions": [
+    ["5 / 2", "2"], ["-5 / 2", "-2"], ["-5 % 2", "-1"],
+    ["(int)-4.9", "-4"], ["Math.Abs(-3)", "3"],
+    ["Math.Abs(-2147483648.0)", "2147483648"],
+    ["Math.Round(2.5)", "2"], ["Math.Round(3.5)", "4"], ["Math.Round(-2.5)", "-2"],
+    ["Math.Round(2.25, 1)", "2.2"], ["Math.Round(-2.75, 1)", "-2.8"],
+    ["Math.Min(6, 4)", "4"], ["Math.Max(3, 6)", "6"],
+    ["Math.Pow(4, 2)", "16"], ["Math.Sqrt(25)", "5"],
+    ["Math.Sqrt(-1)", "NaN"], ["Math.Pow(-2, 0.5)", "NaN"],
+    ["Math.Pow(2, 1024)", "Infinity"]
+  ],
+  "diagnostics": [
+    ["Math.Abs(-2147483648)", "too large for an int"],
+    ["(int)Math.Sqrt(-1)", "cannot be cast"],
+    ["(int)Math.Pow(2, 1024)", "cannot be cast"]
+  ]
+}

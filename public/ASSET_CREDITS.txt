@@ -1,0 +1,8 @@
+Ziki asset credits
+
+Harvest rose (assets/rose.glb)
+Adapted from Low Poly Rose by Yratz
+https://sketchfab.com/3d-models/low-poly-rose-7af507370e564d86a5ebe0a4728c2f19
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Ziki shortens the stem, reshapes and recolors the petals, and exports the model as GLB.

@@ -1,0 +1,33 @@
+{
+  "name": "ziki",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.18.0 || >=24.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "tsc --noEmit && vite build && node tools/notices.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "playwright test",
+    "test:oracle": "dotnet run --project tests/oracle"
+  },
+  "dependencies": {
+    "@babylonjs/core": "9.27.1",
+    "@babylonjs/loaders": "9.27.1",
+    "@fontsource/jetbrains-mono": "5.2.8",
+    "@fontsource/nunito": "5.3.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/react": "19.2.13",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3",
+    "vite": "8.3.0"
+  }
+}
